@@ -524,7 +524,7 @@
 
 .frame .text-wrapper-12 {
   position: absolute;
-  top: 5px;
+  top: 3px;
   left: 16px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
@@ -792,7 +792,7 @@
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #0e0e0e;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
@@ -810,7 +810,7 @@
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #0e0e0e;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
@@ -828,7 +828,7 @@
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #0e0e0e;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
@@ -2552,6 +2552,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 0;
+  font-family: "Noto Sans JP-Black", Helvetica;
 }
 
 
