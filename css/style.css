@@ -1,0 +1,2662 @@
+.frame {
+  background-color: #ddedf8;
+  width: 100%;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 7619px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.frame .body-contents {
+  height: 7613px;
+  top: 0px;
+  position: absolute;
+  left: 0;
+  width: 600px;
+}
+
+.frame .footer {
+  position: absolute;
+  top: 7539px;
+  left: 0;
+  width: 602px;
+  height: 74px;
+  background-color: transparent;
+}
+
+.frame .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 74px;
+  background: linear-gradient(
+    34deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: 28px;
+  left: 145px;
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .qa {
+  position: absolute;
+  top: 6472px;
+  left: 0;
+  width: 600px;
+  height: 1067px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.frame .qa-heading {
+  margin-left: 146px;
+  width: 309px;
+  height: 158px;
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame .qa-heading-sub-text {
+  margin-left: 51px;
+  width: 200px;
+  height: 51px;
+  position: relative;
+}
+
+.frame .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 198px;
+  height: 51px;
+  border-radius: 100px;
+  background: linear-gradient(
+    51deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 1px;
+  left: 27px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .q-a {
+  width: 307px;
+  height: 107px;
+  background: linear-gradient(
+    50deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: -8px;
+  line-height: 105px;
+  white-space: nowrap;
+}
+
+.frame .span {
+  color: #000000;
+}
+
+.frame .text-wrapper-3 {
+  color: #000000;
+  font-size: 64px;
+}
+
+.frame .qa-contents {
+  margin-left: 33px;
+  width: 535px;
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 627px;
+  gap: 24px;
+}
+
+.frame .qa-content {
+  width: 535px;
+  height: 193px;
+  position: relative;
+}
+
+.frame .qa-answer {
+  top: 67px;
+  height: 126px;
+  position: absolute;
+  left: 0;
+  width: 539px;
+}
+
+.frame .rectangle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 535px;
+  height: 126px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 16px 16px;
+  border: none;
+}
+
+.frame .rectangle-2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 0px 0px 16px 16px;
+  background: linear-gradient(
+    48deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  top: 24px;
+  left: 70px;
+  width: 425px;
+  font-family: "Noto Sans JP-Medium", Helvetica;
+  font-weight: 500;
+  color: #1e1e1e;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  top: 11px;
+  left: 28px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #1e1e1e;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .qa-question {
+  top: 0;
+  height: 69px;
+  position: absolute;
+  left: 0;
+  width: 539px;
+}
+
+.frame .rectangle-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 535px;
+  height: 69px;
+  border-radius: 16px 16px 0px 0px;
+  border: none;
+  background: linear-gradient(
+    53deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+}
+
+.frame .rectangle-3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 16px 16px 0px 0px;
+  background: linear-gradient(
+    61deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.frame .text-wrapper-6 {
+  position: absolute;
+  top: 12px;
+  left: 70px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-7 {
+  position: absolute;
+  top: 12px;
+  left: 28px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-8 {
+  position: absolute;
+  top: 12px;
+  left: 70px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .cta-btn {
+  margin-left: 32px;
+  width: 536px;
+  height: 95px;
+  position: relative;
+  margin-top: 56px;
+}
+
+.frame .cta-bg-group {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.frame .cta {
+  position: absolute;
+  width: 100%;
+  height: 96.84%;
+  top: 3.16%;
+  left: 0;
+  background-color: #c16400;
+  border-radius: 209px;
+}
+
+.frame .cta-bg {
+  position: absolute;
+  width: 100%;
+  height: 92.47%;
+  top: 0;
+  left: 0;
+  background-color: #ff8502;
+  border-radius: 209px;
+}
+
+.frame .text-wrapper-9 {
+  position: absolute;
+  width: 47.91%;
+  height: 36.56%;
+  top: 25.11%;
+  left: 26.81%;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .arrow-icon-group {
+  position: absolute;
+  width: 2.37%;
+  height: 23.11%;
+  top: 35.61%;
+  left: 87.63%;
+}
+
+.frame .arrow {
+  top: 37.65%;
+  position: absolute;
+  width: 146.50%;
+  height: 16px;
+  left: 0;
+}
+
+.frame .arrow-icon {
+  top: -12.37%;
+  position: absolute;
+  width: 146.50%;
+  height: 16px;
+  left: 0;
+}
+
+.frame .pen-icon {
+  position: absolute;
+  width: 5.51%;
+  top: 30px;
+  left: 10.63%;
+  height: 30px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .voice {
+  position: absolute;
+  width: 535px;
+  height: 1248px;
+  top: 5160px;
+  left: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.frame .voice-heading {
+  width: 482px;
+  height: 184px;
+  position: relative;
+}
+
+.frame .ellipse {
+  position: absolute;
+  top: 53px;
+  left: 382px;
+  width: 96px;
+  height: 96px;
+  background-color: #fffd73;
+  border-radius: 48px;
+}
+
+.frame .text-wrapper-10 {
+  position: absolute;
+  top: 80px;
+  left: 398px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #0c5cae;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .p {
+  position: absolute;
+  top: 60px;
+  left: 166px;
+  width: 242px;
+  background: linear-gradient(
+    32deg,
+    rgba(71, 185, 159, 1) 0%,
+    rgba(12, 92, 174, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-11 {
+  color: #000000;
+  font-size: 48px;
+  margin: 0 0 0 -14px;
+}
+
+.frame .line {
+  position: absolute;
+  top: 138px;
+  left: 156px;
+  width: 306px;
+  height: 46px;
+  object-fit: cover;
+}
+
+.frame .img {
+  position: absolute;
+  top: 9px;
+  left: 156px;
+  width: 306px;
+  height: 46px;
+  object-fit: cover;
+}
+
+.frame .woman-voice {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 171px;
+  height: 184px;
+  aspect-ratio: 0.93;
+  object-fit: cover;
+}
+
+.frame .voice-contents {
+  height: 1016px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.frame .voice-contet {
+  width: 539px;
+  height: 320px;
+  position: relative;
+}
+
+.frame .rectangle-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 535px;
+  height: 320px;
+  background-color: #ffffff;
+}
+
+.frame .voice-2 {
+  position: absolute;
+  top: 25px;
+  left: 29px;
+  width: 194px;
+  height: 30px;
+}
+
+.frame .rectangle-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 192px;
+  height: 30px;
+  background-color: #ff8c21;
+}
+
+.frame .text-wrapper-12 {
+  position: absolute;
+  top: 5px;
+  left: 16px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .element {
+  position: absolute;
+  top: 278px;
+  left: 358px;
+  width: 148px;
+  font-family: "Noto Sans JP-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-13 {
+  position: absolute;
+  top: 160px;
+  left: 31px;
+  width: 479px;
+  font-family: "Noto Sans JP-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.frame .voice-sub {
+  position: absolute;
+  top: 70px;
+  left: 29px;
+  width: 469px;
+  height: 74px;
+  display: flex;
+  gap: 13px;
+}
+
+.frame .voice-img {
+  width: 74px;
+  height: 74px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-14 {
+  margin-top: 13px;
+  width: 380px;
+  height: 48px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .voice-3 {
+  position: absolute;
+  top: 25px;
+  left: 29px;
+  width: 242px;
+  height: 30px;
+}
+
+.frame .rectangle-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 30px;
+  background-color: #1265ad;
+}
+
+.frame .voice-4 {
+  position: absolute;
+  top: 25px;
+  left: 29px;
+  width: 240px;
+  height: 30px;
+}
+
+.frame .rectangle-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 238px;
+  height: 30px;
+  background-color: #fe5ab3;
+}
+
+.frame .course {
+  position: absolute;
+  top: 3558px;
+  left: 0;
+  width: 600px;
+  height: 1554px;
+}
+
+.frame .rectangle-8 {
+  position: absolute;
+  top: 147px;
+  left: 0;
+  width: 600px;
+  height: 1407px;
+  background-color: #fbfbfb;
+}
+
+.frame .cta-btn-2 {
+  position: absolute;
+  top: 1409px;
+  left: 32px;
+  width: 536px;
+  height: 95px;
+}
+
+.frame .course-detail {
+  position: absolute;
+  top: 564px;
+  left: 18px;
+  width: 564px;
+  height: 795px;
+}
+
+.frame .course-detail-bg {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 535px;
+  height: 795px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 2px 4px 27.3px 3px #00000014;
+}
+
+.frame .right-arrow-icon {
+  position: absolute;
+  top: 330px;
+  left: 523px;
+  width: 41px;
+  height: 41px;
+}
+
+.frame .right-arrow-icon-bg {
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 41px;
+  border-radius: 20.5px;
+  box-shadow: 0px 2px 9px 4px #00000014;
+  position: absolute;
+  background-color: #ffffff;
+  transform: rotate(180deg);
+}
+
+.frame .right-arrow {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  width: 26px;
+  height: 26px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .left-arrow-icon {
+  position: absolute;
+  top: 330px;
+  left: 0;
+  width: 41px;
+  height: 41px;
+  /* display: flex;
+  background-color: #ffffff;
+  border-radius: 20.5px;
+  box-shadow: 0px 2px 9px 4px #00000014; */
+}
+
+.frame .left-arrow-icon-bg {
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 41px;
+  border-radius: 20.5px;
+  box-shadow: 0px 2px 9px 4px #00000014;
+  position: absolute;
+  background-color: #ffffff;
+  transform: rotate(180deg);
+}
+
+.frame .left-arrow {
+  margin-top: 4px;
+  width: 26px;
+  height: 26px;
+  margin-left: -2px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  position: relative;
+}
+
+.frame .course-detail-img {
+  position: absolute;
+  top: 366px;
+  left: 38px;
+  width: 461px;
+  height: 414px;
+}
+
+.frame .demo-site {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 459px;
+  height: 414px;
+  aspect-ratio: 1.11;
+  object-fit: cover;
+}
+
+.frame .course-detail-text {
+  position: absolute;
+  width: 313px;
+  height: 84px;
+  top: 260px;
+  left: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.frame .course-detail-2 {
+  width: 315px;
+  display: flex;
+  gap: 7px;
+}
+
+.frame .check-icon {
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  background-color: #1265ad;
+  border-radius: 7.5px;
+}
+
+.frame .check {
+  margin-top: 3px;
+  width: 10px;
+  height: 10px;
+  margin-left: 3px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-16 {
+  width: 291px;
+  height: 24px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #0e0e0e;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .course-detail-3 {
+  width: 267px;
+  display: flex;
+  gap: 7px;
+}
+
+.frame .text-wrapper-17 {
+  width: 243px;
+  height: 24px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #0e0e0e;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .course-detail-4 {
+  width: 290px;
+  display: flex;
+  gap: 7px;
+}
+
+.frame .text-wrapper-18 {
+  width: 266px;
+  height: 24px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #0e0e0e;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .course-detail-price {
+  position: absolute;
+  top: 145px;
+  left: 37px;
+  width: 293px;
+  height: 83px;
+}
+
+.frame .text-wrapper-19 {
+  position: absolute;
+  top: 6px;
+  left: 98px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #0e0e0e;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .element-2 {
+  position: absolute;
+  top: 42px;
+  left: 98px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #0e0e0e;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-20 {
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #0e0e0e;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .text-wrapper-21 {
+  font-size: 40px;
+}
+
+.frame .text-wrapper-22 {
+  font-size: 16px;
+}
+
+.frame .course-detail-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  background-color: #f2f2f2;
+  border-radius: 41.5px;
+}
+
+.frame .web-site {
+  margin-top: 19px;
+  width: 47px;
+  height: 47px;
+  margin-left: 18px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .course-detail-sub {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 264px;
+  height: 80px;
+}
+
+.frame .rectangle-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 262px;
+  height: 80px;
+  background: linear-gradient(
+    90deg,
+    rgba(66, 156, 233, 1) 0%,
+    rgba(164, 213, 255, 1) 100%
+  );
+}
+
+/* --- コース別カラー連動（サブバナー .rectangle-9 とチェックドット） --- */
+/* Web制作（既定の青） */
+.course-web .rectangle-9 { background: linear-gradient(90deg, #429ce9 0%, #a4d5ff 100%); }
+.course-web .check-icon { background-color: #1265ad; }
+
+/* デザイン */
+.course-design .rectangle-9 { background: linear-gradient(90deg, #ff8c21 0%, #ffb36b 100%); }
+.course-design .check-icon { background-color: #ff8c21; }
+
+/* AIライティング */
+.course-ai .rectangle-9 { background: linear-gradient(90deg, #12ad12 0%, #6bd66b 100%); }
+.course-ai .check-icon { background-color: #12ad12; }
+
+/* マーケティング */
+.course-marketing .rectangle-9 { background: linear-gradient(90deg, #fe5ab3 0%, #ff9ad1 100%); }
+.course-marketing .check-icon { background-color: #fe5ab3; }
+
+/* 動画編集 */
+.course-video .rectangle-9 { background: linear-gradient(90deg, #fb4a4d 0%, #ff8a8c 100%); }
+.course-video .check-icon { background-color: #fb4a4d; }
+
+/* プログラミング */
+.course-programming .rectangle-9 { background: linear-gradient(90deg, #1265ad 0%, #6ba3d2 100%); }
+.course-programming .check-icon { background-color: #1265ad; }
+
+.frame .text-wrapper-23 {
+  position: absolute;
+  top: 16px;
+  left: 42px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .course-menu {
+  position: absolute;
+  width: 535px;
+  height: 250px;
+  top: 236px;
+  left: 33px;
+}
+
+.frame .course-menu-programming {
+  position: absolute;
+  top: 180px;
+  left: 293px;
+  width: 244px;
+  height: 70px;
+}
+
+.frame .rectangle-10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 242px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border: 1px solid;
+  border-color: #727272;
+  box-shadow: 3px 4px 7.3px #0000001c;
+}
+
+.frame .rectangle-11 {
+  background-color: #1265ad;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 70px;
+  border-radius: 18px 0px 0px 18px;
+}
+
+.frame .text-wrapper-24 {
+  position: absolute;
+  top: 10px;
+  left: 46px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .course-menu-video {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  width: 244px;
+  height: 70px;
+}
+
+.frame .rectangle-12 {
+  background-color: #fb4a4d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 70px;
+  border-radius: 18px 0px 0px 18px;
+}
+
+.frame .text-wrapper-25 {
+  position: absolute;
+  top: 10px;
+  left: 43px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .course-menu-marketing {
+  position: absolute;
+  top: 90px;
+  left: 293px;
+  width: 244px;
+  height: 70px;
+}
+
+.frame .rectangle-13 {
+  background-color: #fe5ab3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 70px;
+  border-radius: 18px 0px 0px 18px;
+}
+
+.frame .text-wrapper-26 {
+  position: absolute;
+  top: 10px;
+  left: 44px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .course-menu-ai {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 244px;
+  height: 70px;
+}
+
+.frame .rectangle-14 {
+  background-color: #12ad12;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 70px;
+  border-radius: 18px 0px 0px 18px;
+}
+
+.frame .course-menu-design {
+  position: absolute;
+  top: 0;
+  left: 293px;
+  width: 244px;
+  height: 70px;
+}
+
+.frame .rectangle-15 {
+  background-color: #ff8c21;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 70px;
+  border-radius: 18px 0px 0px 18px;
+}
+
+.frame .text-wrapper-27 {
+  position: absolute;
+  top: 10px;
+  left: 44px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .course-menu-web {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 244px;
+  height: 70px;
+}
+
+/* rectangle-16 は使用を終了（Webも共通構造に統一） */
+
+.frame .text-wrapper-28 {
+  position: absolute;
+  top: 10px;
+  left: 43px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .course-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 602px;
+  height: 183px;
+}
+
+.frame .div-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame .rectangle-17 {
+  height: 147px;
+  background: linear-gradient(
+    39deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+}
+
+.frame .polygon {
+  margin-left: 248.8px;
+  width: 101.32px;
+  height: 36px;
+}
+
+.frame .text-wrapper-29 {
+  position: absolute;
+  top: 49px;
+  left: 157px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .features {
+  position: absolute;
+  top: 2564px;
+  left: 0;
+  width: 600px;
+  height: 926px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame .features-heading {
+  width: 606px;
+  height: 183px;
+  position: relative;
+}
+
+.frame .text-wrapper-30 {
+  position: absolute;
+  top: 77px;
+  left: 271px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-31 {
+  top: 70px;
+  left: 214px;
+  font-size: 64px;
+  position: absolute;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .career-craft {
+  position: absolute;
+  top: 18px;
+  left: 149px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-32 {
+  font-weight: 900;
+}
+
+.frame .text-wrapper-33 {
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0 0 0 -6px;
+}
+
+.frame .features-contents {
+  margin-left: 33px;
+  width: 535px;
+  height: 560px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.frame .features-content {
+  width: 541px;
+  height: 128px;
+  position: relative;
+}
+
+.frame .div-3 {
+  position: absolute;
+  top: 0;
+  left: 90px;
+  width: 445px;
+  height: 128px;
+  background-color: #ffffff;
+}
+
+.frame .rectangle-18 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 128px;
+  background: linear-gradient(
+    47deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+}
+
+.frame .text-wrapper-34 {
+  position: absolute;
+  top: 72px;
+  left: 227px;
+  font-family: "Noto Sans JP-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-35 {
+  top: 34px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  font-size: 22px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  left: 228px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-36 {
+  top: 39px;
+  left: 25px;
+  font-size: 32px;
+  position: absolute;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .japan {
+  position: absolute;
+  top: 23px;
+  left: 122px;
+  width: 83px;
+  height: 83px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-37 {
+  top: 72px;
+  font-family: "Noto Sans JP-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 18px;
+  position: absolute;
+  left: 228px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-38 {
+  position: absolute;
+  top: 34px;
+  left: 228px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-39 {
+  position: absolute;
+  top: 39px;
+  left: 23px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .pc {
+  position: absolute;
+  top: 21px;
+  left: 123px;
+  width: 85px;
+  height: 85px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-40 {
+  position: absolute;
+  top: 72px;
+  left: 228px;
+  font-family: "Noto Sans JP-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .support {
+  position: absolute;
+  top: 24px;
+  left: 125px;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-41 {
+  position: absolute;
+  top: 34px;
+  left: 227px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-42 {
+  top: 39px;
+  left: 22px;
+  font-size: 32px;
+  position: absolute;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .note {
+  position: absolute;
+  top: 25px;
+  left: 129px;
+  width: 77px;
+  height: 77px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .cta-btn-3 {
+  margin-left: 33px;
+  width: 536px;
+  height: 95px;
+  position: relative;
+  margin-top: 48px;
+}
+
+/* CTA shine animation */
+.frame .cta-bg-group {
+  position: relative;
+  overflow: hidden;
+  border-radius: 209px; /* shineをボタンの角丸でクリップ */
+}
+
+.frame .cta-bg-group::after{
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -30%;
+  width: 30%;
+  height: 200%;
+  background: linear-gradient(120deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.6) 50%, rgba(255,255,255,0) 100%);
+  transform: skewX(-50deg);
+  animation: cta-shine 1.6s infinite;
+  pointer-events: none;
+}
+
+@keyframes cta-shine {
+  0% { left: -80%; }
+  100% { left: 180%; }
+}
+
+/* コース切り替え用スタイル */
+.course-detail-bg {
+  display: none;
+}
+
+.course-detail-bg.active {
+  display: block;
+}
+
+/* コースメニューボタンの選択状態 */
+.course-menu button.active .rectangle-10 {
+  border-color: transparent;
+}
+
+/* Web制作コース（青系） */
+.course-menu-web.active .rectangle-10 {
+  background: linear-gradient(
+    90deg,
+    rgba(66, 156, 233, 1) 0%,
+    rgba(136, 200, 255, 1) 100%
+  );
+}
+
+/* デザインコース（紫系） */
+.course-menu-design.active .rectangle-10 {
+  background: linear-gradient(90deg, #ff8c21 0%, #ff8c21 100%);
+}
+
+/* AIライティングコース（緑系） */
+.course-menu-ai.active .rectangle-10 {
+  background: linear-gradient(90deg, #12ad12 0%, #12ad12 100%);
+}
+
+/* マーケティングコース（ピンク系） */
+.course-menu-marketing.active .rectangle-10 {
+  background: linear-gradient(90deg, #fe5ab3 0%, #fe5ab3 100%);
+}
+
+/* 動画編集コース（オレンジ系） */
+.course-menu-video.active .rectangle-10 {
+  background: linear-gradient(90deg, #fb4a4d 0%, #fb4a4d 100%);
+}
+
+/* プログラミングコース（赤系） */
+.course-menu-programming.active .rectangle-10 {
+  background: linear-gradient(90deg, #1265ad 0%, #1265ad 100%);
+}
+
+.course-menu button.active .rectangle-11,
+.course-menu button.active .rectangle-12,
+.course-menu button.active .rectangle-13,
+.course-menu button.active .rectangle-14,
+.course-menu button.active .rectangle-15 {
+  background-color: #ffffff;
+}
+
+.course-menu button.active p {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.frame .worries {
+  position: absolute;
+  width: 600px;
+  height: 1368px;
+  top: 1136px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.frame .worries-before {
+  height: 694px;
+  position: relative;
+}
+
+.frame .worries-before-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 604px;
+  background-color: #d2d2d2;
+}
+
+.frame .vector {
+  position: absolute;
+  top: 604px;
+  left: 0;
+  width: 600px;
+  height: 90px;
+}
+
+.frame .worries-before-img {
+  position: absolute;
+  top: 446px;
+  left: 195px;
+  width: 193px;
+  height: 187px;
+  aspect-ratio: 1.03;
+  object-fit: cover;
+}
+
+.frame .worries-before-2 {
+  position: absolute;
+  width: 522px;
+  height: 328px;
+  top: 165px;
+  left: 39px;
+}
+
+.frame .worries-before-3 {
+  position: absolute;
+  top: 189px;
+  left: 279px;
+  width: 245px;
+  height: 139px;
+}
+
+.frame .rectangle-19 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 243px;
+  height: 86px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.frame .ellipse-3 {
+  top: 65px;
+  left: 159px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: #ffffff;
+  transform: rotate(180deg);
+}
+
+.frame .ellipse-4 {
+  top: 102px;
+  left: 143px;
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  position: absolute;
+  background-color: #ffffff;
+  transform: rotate(180deg);
+}
+
+.frame .ellipse-5 {
+  top: 125px;
+  left: 122px;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: #ffffff;
+  transform: rotate(180deg);
+}
+
+.frame .text-wrapper-43 {
+  position: absolute;
+  top: 17px;
+  left: 23px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .worries-before-4 {
+  position: absolute;
+  top: 168px;
+  left: 31px;
+  width: 234px;
+  height: 139px;
+}
+
+.frame .rectangle-20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 232px;
+  height: 86px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.frame .ellipse-6 {
+  position: absolute;
+  top: 125px;
+  left: 82px;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  aspect-ratio: 1;
+}
+
+.frame .ellipse-7 {
+  position: absolute;
+  top: 102px;
+  left: 53px;
+  width: 22px;
+  height: 22px;
+  background-color: #ffffff;
+  border-radius: 11px;
+}
+
+.frame .ellipse-8 {
+  position: absolute;
+  top: 65px;
+  left: 27px;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  aspect-ratio: 1;
+}
+
+.frame .text-wrapper-44 {
+  position: absolute;
+  top: 15px;
+  left: 27px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .worries-before-5 {
+  position: absolute;
+  top: 22px;
+  left: 334px;
+  width: 187px;
+  height: 143px;
+}
+
+.frame .rectangle-21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 185px;
+  height: 88px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.frame .ellipse-9 {
+  top: 129px;
+  left: 66px;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  transform: rotate(180deg);
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.frame .ellipse-10 {
+  position: absolute;
+  top: 106px;
+  left: 87px;
+  width: 22px;
+  height: 22px;
+  background-color: #ffffff;
+  border-radius: 11px;
+  transform: rotate(180deg);
+}
+
+.frame .ellipse-11 {
+  top: 69px;
+  left: 103px;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  transform: rotate(180deg);
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.frame .text-wrapper-45 {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .worries-before-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 299px;
+  height: 145px;
+}
+
+.frame .rectangle-22 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 297px;
+  height: 88px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.frame .ellipse-12 {
+  top: 131px;
+  left: 113px;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.frame .ellipse-13 {
+  position: absolute;
+  top: 108px;
+  left: 84px;
+  width: 22px;
+  height: 22px;
+  background-color: #ffffff;
+  border-radius: 11px;
+}
+
+.frame .ellipse-14 {
+  top: 71px;
+  left: 58px;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.frame .text-wrapper-46 {
+  position: absolute;
+  top: 16px;
+  left: 25px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .worries-before-7 {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 602px;
+  height: 62px;
+}
+
+.frame .div-4 {
+  position: absolute;
+  top: 13px;
+  left: 71px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-47 {
+  color: #052648;
+  font-size: 54px;
+}
+
+.frame .ellipse-15 {
+  top: 0;
+  left: 290px;
+  width: 6px;
+  height: 6px;
+  background-color: #052648;
+  border-radius: 3px;
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.frame .ellipse-16 {
+  position: absolute;
+  top: 0;
+  left: 238px;
+  width: 6px;
+  height: 6px;
+  background-color: #052648;
+  border-radius: 3px;
+  aspect-ratio: 1;
+}
+
+.frame .ellipse-17 {
+  top: 0;
+  left: 178px;
+  width: 6px;
+  height: 6px;
+  background-color: #052648;
+  border-radius: 3px;
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.frame .line-2 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 58px;
+  height: 2px;
+}
+
+.frame .line-3 {
+  position: absolute;
+  top: 48px;
+  left: 560px;
+  width: 40px;
+  height: 2px;
+}
+
+.frame .worries-after {
+  margin-left: 7px;
+  width: 585px;
+  height: 644px;
+  position: relative;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 585px;
+  height: 437px;
+  top: 0;
+  left: 0;
+}
+
+.frame .worries-after-2 {
+  position: absolute;
+  width: 585px;
+  height: 277px;
+  top: 160px;
+  left: 0;
+}
+
+.frame .worries-after-3 {
+  position: absolute;
+  top: 155px;
+  left: 350px;
+  width: 226px;
+  height: 122px;
+}
+
+.frame .rectangle-23 {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  width: 191px;
+  height: 88px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.frame .element-3 {
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .decoration {
+  position: absolute;
+  top: 0;
+  left: 144px;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .worries-after-4 {
+  position: absolute;
+  top: 128px;
+  left: 17px;
+  width: 294px;
+  height: 121px;
+}
+
+.frame .rectangle-24 {
+  position: absolute;
+  top: 33px;
+  left: 31px;
+  width: 261px;
+  height: 88px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.frame .text-wrapper-48 {
+  position: absolute;
+  top: 49px;
+  left: 56px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .decoration-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .worries-after-5 {
+  position: absolute;
+  top: 28px;
+  left: 321px;
+  width: 266px;
+  height: 124px;
+}
+
+.frame .rectangle-25 {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 231px;
+  height: 88px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.frame .text-wrapper-49 {
+  position: absolute;
+  top: 52px;
+  left: 25px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .decoration-3 {
+  position: absolute;
+  top: 0;
+  left: 184px;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .worries-after-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304px;
+  height: 124px;
+}
+
+.frame .rectangle-26 {
+  position: absolute;
+  top: 36px;
+  left: 32px;
+  width: 270px;
+  height: 88px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.frame .text-wrapper-50 {
+  position: absolute;
+  top: 52px;
+  left: 57px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .worries-after-7 {
+  position: absolute;
+  width: 474px;
+  height: 164px;
+  top: 0;
+  left: 66px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.frame .decoration-text {
+  margin-left: 100px;
+  width: 253px;
+  height: 64px;
+  position: relative;
+}
+
+.frame .rectangle-27 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 251px;
+  height: 49px;
+  background-color: #fefe7d;
+  border-radius: 52px;
+}
+
+.frame .text-wrapper-51 {
+  position: absolute;
+  top: 2px;
+  left: 15px;
+  width: 221px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #0c5cae;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+}
+
+.frame .polygon-2 {
+  position: absolute;
+  top: 45px;
+  left: 109px;
+  width: 34px;
+  height: 19px;
+}
+
+.frame .worries-after-8 {
+  width: 480px;
+  height: 98px;
+  position: relative;
+}
+
+.frame .text-wrapper-52 {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 38px;
+  background: linear-gradient(
+    40deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-53 {
+  position: absolute;
+  top: 2px;
+  left: 218px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-54 {
+  position: absolute;
+  top: 0;
+  left: 117px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+}
+
+.frame .rejoice-man-color {
+  position: absolute;
+  top: 413px;
+  left: 179px;
+  width: 212px;
+  height: 231px;
+  aspect-ratio: 0.92;
+  object-fit: cover;
+}
+
+.frame .fv {
+  position: absolute;
+  width: 100%;
+  height: 14.03%;
+  top: 0;
+  left: 0;
+}
+
+.frame .cta-btn-4 {
+  position: absolute;
+  width: 89.33%;
+  height: 8.90%;
+  top: 91.10%;
+  left: 5.33%;
+}
+
+.frame .fv-text {
+  position: absolute;
+  top: 849px;
+  left: 51px;
+  width: 523px;
+  height: 98px;
+}
+
+.frame .text-wrapper-57 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-size: 40px;
+  background: linear-gradient(
+    40deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-58 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+}
+
+.frame .text-wrapper-59 {
+  position: absolute;
+  top: 0;
+  left: 226px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+  white-space: nowrap;
+}
+
+.frame .fv-bg {
+  top: 580px;
+  left: 0;
+  width: 389px;
+  aspect-ratio: 1.31;
+  position: absolute;
+  height: 296px;
+  object-fit: cover;
+}
+
+.frame .fv-bg-img {
+  top: 0;
+  left: 210px;
+  width: 390px;
+  aspect-ratio: 1.32;
+  position: absolute;
+  height: 296px;
+  object-fit: cover;
+}
+
+.frame .fv-woman-img {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 574px;
+  height: 397px;
+  aspect-ratio: 1.45;
+  object-fit: cover;
+}
+
+.frame .fv-man-img {
+  position: absolute;
+  top: 399px;
+  left: 68px;
+  width: 532px;
+  height: 398px;
+  aspect-ratio: 1.34;
+  object-fit: cover;
+}
+
+.frame .main {
+  top: 526px;
+  width: 317px;
+  position: absolute;
+  left: 0;
+  height: 76px;
+}
+
+.frame .rectangle-28 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 315px;
+  height: 76px;
+  background: linear-gradient(
+    87deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+}
+
+.frame .text-wrapper-60 {
+  position: absolute;
+  top: 6px;
+  left: 33px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 63px;
+  white-space: nowrap;
+}
+
+.frame .main-text {
+  top: 438px;
+  width: 269px;
+  position: absolute;
+  left: 0;
+  height: 76px;
+}
+
+.frame .rectangle-29 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 267px;
+  height: 76px;
+  background: linear-gradient(
+    85deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+}
+
+.frame .main-2 {
+  top: 350px;
+  width: 384px;
+  position: absolute;
+  left: 0;
+  height: 76px;
+}
+
+.frame .rectangle-30 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 382px;
+  height: 76px;
+  background: linear-gradient(
+    88deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+}
+
+.frame .text-wrapper-61 {
+  position: absolute;
+  top: 7px;
+  left: 31px;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 63px;
+  white-space: nowrap;
+}
+
+/* ハンバーガーメニュー */
+/* ヘッダー */
+.header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.header__inner {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+}
+
+.header__inner.is-scrolled {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: .3s ;
+}
+
+.header__title {
+  width: 80px;
+}
+
+
+/* @media screen and (min-width: 960px) {
+  .header__title {
+    width: 120px;
+  }
+} */
+
+.frame .text-wrapper-55 {
+  margin: 8px 0 0 4px;
+  width: 190px;
+  height: 38px;
+  font-size: 32px;
+  background: linear-gradient(
+    40deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Noto Sans JP-Black", Helvetica;
+  font-weight: 900;
+  color: transparent;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.header__title img {
+  display: block;
+  width: 68%;
+  height: 100%;
+}
+
+.header__nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+  background-color: #fff;
+  transition: transform .4s ease, opacity .2s ease;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 9999;
+  will-change: transform;
+}
+
+
+/* @media screen and (min-width: 960px) {
+  .header__nav {
+    position: static;
+    transform: initial;
+    background-color: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    width: 50%;
+  }
+}
+
+
+@media screen and (min-width: 960px) {
+  .nav__items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: initial;
+    justify-content: space-between;
+  }
+} */
+
+.nav-items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+}
+
+
+/* @media screen and (min-width: 960px) {
+  .nav-items {
+    padding-top: inherit;
+    padding-bottom: inherit;
+    position: inherit;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+} */
+
+.nav-items__item a {
+  color: black;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.nav-items__item:last-child a {
+  margin-bottom: 0;
+}
+
+/* @media screen and (min-width: 960px) {
+  .nav-items__item a {
+    margin-bottom: 0;
+  }
+} */
+
+
+/* ハンバーガーメニュー */
+.careercraft-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__hamburger {
+  width: 48px;
+  height: 100%;
+
+}
+
+.hamburger {
+  background-color: transparent;
+  border-color: transparent;
+  z-index: 9999;
+}
+
+/* @media screen and (min-width: 960px) {
+  .hamburger {
+    display: none;
+  }
+} */
+
+
+.hamburger span {
+  width: 100%;
+  height: 2px;
+  /* background-color: #000; */
+  background: linear-gradient(
+    40deg,
+    rgba(12, 92, 174, 1) 0%,
+    rgba(71, 185, 159, 1) 100%
+  );
+  position: relative;
+  transition: ease .4s;
+  display: block;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  margin: 8px 0;
+}
+
+.hamburger span:nth-child(3) {
+  top: 0;
+}
+
+
+/* ハンバーガーメニュークリック後のスタイル */
+.header__nav.active {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hamburger.active span:nth-child(1) {
+  top: 5px;
+  transform: rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+
+}
+
+.hamburger.active span:nth-child(3) {
+  top: -15px;
+  transform: rotate(-45deg);
+} 
